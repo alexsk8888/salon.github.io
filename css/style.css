@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url('/image/fone.jpg');
+    background-image: url('../image/fone.jpg');
     background-size: cover;
 }
 body>.backgroundBody{
@@ -13,14 +13,14 @@ header{
     flex-direction: row;
     width: 100%;
     height: 100px;
-    background-image: url('/image/2top.png');
+    background-image: url('../image/2top.png');
     font-family: Arial, Helvetica, sans-serif;
     align-items:flex-start;
 }
 nav{
     width: 100%;
     height: 300px;
-    background-image: url('/image/header.png');
+    background-image: url('../image/header.png');
    background-size: cover;
    background-position-y: -200px;
    margin: 0;
@@ -46,7 +46,7 @@ nav{
     display: inline-block;
     width: 80px;
     height: 80px;
-    background-image: url('/image/logo.png');
+    background-image: url('../image/logo.png');
     background-size: cover;
     background-color: orangered; 
     border-radius: 15%;
@@ -120,7 +120,7 @@ main{
 .sauna{
     width: 40%;
     height: 600px;
-    background-image: url('/image/SmallNewsauna.png');
+    background-image: url('../image/SmallNewsauna.png');
     background-size: cover;
     margin: 3px;
 }
@@ -129,14 +129,14 @@ main{
 .massager{
     width: 70%;
     height: 600px;
-    background-image: url('/image/massager.jpeg');
+    background-image: url('../image/massager.jpeg');
     background-size: cover;
     margin: 3px;
 }
 .bottle{
     width: 50%;
     height: 600px;
-    background-image: url('/image/bottle.jpeg');
+    background-image: url('../image/bottle.jpeg');
     background-size: cover;
     margin: 3px;   
 }
@@ -154,7 +154,7 @@ main{
 footer{
    
     width: 100%;
-    background-image: url('/image/background_grass1.jpg'); 
+    background-image: url('../image/background_grass1.jpg'); 
     background-size: cover;
     background-color: rgb(66, 165, 91);
     height: 320px;
