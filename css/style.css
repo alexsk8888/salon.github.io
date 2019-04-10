@@ -20,9 +20,9 @@ header{
 nav{
     width: 100%;
     height: 200px;
-    background-image: url('../image/header.png');
+    background-image: url('../image/WelcomePage-2 (1).jpg');
    background-size: cover;
-   background-position-y: -200px;
+   background-position-y:center;
    margin: 0;
    padding: 0;
 }
