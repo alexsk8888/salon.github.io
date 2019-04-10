@@ -23,8 +23,9 @@ nav{
     background-image: url('../image/WelcomePage-2 (1).jpg');
    background-size: cover;
    background-position-y:center;
-   margin: 0;
-   padding: 0;
+   margin: 0;;
+   display: flex;
+   justify-content: flex-end;
 }
 .logname{
     width: 30%;
@@ -78,15 +79,18 @@ nav{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: column;
 
 }
 .express>p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
-    font-size: 28px;
+    font-size: 50px;
     font-weight: 900;
+    color: rgb(248, 248, 141);;
+    line-height: 0;
+
 }
 nav input{
     background-color: orangered;
