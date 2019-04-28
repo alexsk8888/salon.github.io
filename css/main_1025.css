@@ -1,0 +1,142 @@
+@media only screen and (min-width : 1025px) {
+
+    body{
+        padding: 0;
+        margin: 0; 
+        background-image: url('../image/fon.jpg');
+        
+    }
+     body>.backgroundBody{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 0;
+        margin: 0;          
+    }       
+    .header {
+         padding: 0;
+         grid-area: header;       
+         background-image: url('../image/header.jpg');
+         background-position-y: -250px;
+     }
+    
+    .oneLeft { grid-area: oneLeft;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .oneRight { grid-area: oneRight;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }    
+    .twoLeft { grid-area: twoLeft; 
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .twoRight { grid-area: twoRight; 
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }    
+    .threeRight { grid-area: threeRight; 
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .threeLeft { grid-area: threeLeft;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .fourRight { grid-area: fourRight; 
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .fourLeft { grid-area: fourLeft;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    
+    .footer { 
+              grid-area: footer;
+              background-image: url('../image/background_grass1.jpg'); 
+              background-size: cover;
+    }
+    .nav {
+           grid-area: nav; 
+           display: flex;
+           position: relative;
+           top:-10px;
+           justify-content: center;
+           align-content: center; 
+           background-color: rgba(255, 255, 255, 0.8);
+    }
+    .item5 { grid-area: nonR; }
+    .item6 { grid-area: nonL; }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto 200px 200px 200px 200px 200px 200px auto;
+      grid-template-rows: 200px 300px 450px 450px 450px 450px 250px;
+      grid-template-areas:
+        'header header    header    header     header     header     header     header'
+        'nav    nav       nav       nav        nav        nav        nav        nav'
+        'nonR   oneLeft   oneLeft   oneRight   oneRight   oneRight   oneRight   nonL'
+        'nonR   twoLeft   twoLeft   twoRight    twoRight   twoRight   twoRight   nonL'
+        'nonR   threeLeft threeLeft threeLeft threeRight threeRight threeRight nonL' 
+        'nonR   fourLeft fourLeft fourLeft fourRight fourRight fourRight nonL'
+        'footer footer footer footer footer footer footer footer';
+      grid-gap: 10px 0;    
+    }
+    
+    .grid-container .oneLeft, .twoLeft, .threeLeft, .oneRight, .twoRight, .threeRight, .fourLeft, .fourRight{
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+
+    .img1{
+        height: 100%;
+        width: 20%;
+        background-image: url('../image/baner1.jpg');
+        background-size: cover;
+    }
+    .img2{
+        height: 100%;
+        width: 25%;
+        background-image: url('../image/baner2.jpg');
+        background-size: cover;    
+    }
+    .img3{
+        height: 100%;
+        width: 30%;
+        background-image: url('../image/baner3.jpg');
+        background-size: cover;    
+    }
+    .img4{
+        height: 100%;
+        width: 25%;
+        background-image: url('../image/baner4.jpg');
+        background-size: cover;    
+    }
+    .AboutMe,.massagerText, .saunaText{
+        width: 90%;
+        text-align: left;
+        display: inline-block;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: rgb(71, 71, 71);
+    }
+#go-top {
+  position: fixed; 
+  bottom: 50px; 
+  right: 10px; 
+  cursor:pointer; 
+  display:none;
+  width: 0;
+  height: 0;
+  border: 30px solid transparent;
+  border-bottom-color: red;
+  border-top: 0;
+} 
+#go-top:hover {
+    border-bottom-color: rgb(119, 40, 18);
+}
+    }
